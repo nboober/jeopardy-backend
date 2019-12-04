@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 user1 = User.create(name: "Nick", username: "username", password: "password")
-user2 = User.create(name: "Will", username: "username", password: "password")
+user2 = User.create(name: "Will", username: "will", password: "1234")
 
 game1 = Game.create(name: "jeopardy", user_id: user1.id)
 game1 = Game.create(name: "jeopardy", user_id: user2.id)
