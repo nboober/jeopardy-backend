@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2019_12_02_183108) do
   enable_extension "plpgsql"
 
   create_table "games", force: :cascade do |t|
-    t.string "name"
+    t.integer "highscore"
     t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
