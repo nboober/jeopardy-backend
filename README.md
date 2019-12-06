@@ -1,24 +1,14 @@
-# README
+# Jeopardy Back-End
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction
+This is my FlatIron Mod 4 project. This project was our interpretation of the game Jeopardy.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Install 
+ - Fork and clone this repository
+    - You will also need to fork and clone the frontend for the visual portion of the project (jeopardy-frontend)
+    - The backend will need to be run before the frontend in order for the game to work properly
+ - bundle install
+ - rails db:create
+ - rails db:migrate
+ - rails db:seed
+ - rails s
