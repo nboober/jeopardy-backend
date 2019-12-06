@@ -3,6 +3,8 @@
 ## Introduction
 This is my FlatIron Mod 4 project. This project was our interpretation of the game Jeopardy.
 
+This project uses PostgreSQL as a database.
+
 ## Install 
  - Fork and clone this repository
     - You will also need to fork and clone the frontend for the visual portion of the project (jeopardy-frontend)
